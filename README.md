@@ -33,10 +33,18 @@ npm i
 
 ## Usage
 
-Clone the repo to your local machine and open in an IDE. Make sure you have node.js and npm installed (hint: node -v & npm -v). In the packages root directory, install the following packages: express.js, sequelize, mysql2, and dotenv (npm i express sequelize mysql2 dotenv). Also create a .env file in the root directory to save sensitive information such as your MYSQL username and password, and database name (ex: DB_NAME='', DB_USER='', DB_PW=''). These variables are referenced in the /config/connection.js file. From the mysql shell, run source db/schema.sql; to create the schema, quit the mysql shell and run npm run seed to seed the tables. Finally run npm start to initiate the program, open Insomnia and the app is ready to test/demonstrate API routes: GET, POST, PUT, and DELETE for categories, products, and tags.
+Clone the repo to your local machine and open in VS code. Make sure you have node.js and npm installed (hint: node -v & npm -v). In the packages root directory, install the following packages: express.js, sequelize, mysql2, and dotenv (npm i express sequelize mysql2 dotenv). Also create a .env file in the root directory to save sensitive information such as your MYSQL username and password, and database name (ex: DB_NAME='', DB_USER='', DB_PW=''). These variables are referenced in the /config/connection.js file. From the mysql shell, run source db/schema.sql; to create the schema, quit the mysql shell and run npm run seed to seed the tables. Finally run npm start to initiate the program, open Insomnia and the app is ready to test/demonstrate API routes: GET, POST, PUT, and DELETE for categories, products, and tags.
 
-## Video Walkthrough
+## Video Walkthrough and link to repository
 
+https://drive.google.com/file/d/12vuV_wJwoKGWjvYHtkD-eJvEUOjTMbo1/view
 
+https://github.com/odders17/Object-Relational-Mapping-ORM-E-Commerce-Back-End
+
+![Screencastify](./assets/screencastifyORM.gif)
 
 # API ROUTES
+
+![ScreenShot](./assets/categories.png)
+![ScreenShot](./assets/products.png)
+![ScreenShot](./assets/tags.png)

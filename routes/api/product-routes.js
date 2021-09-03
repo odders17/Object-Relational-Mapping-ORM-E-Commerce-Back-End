@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
-// The `/api/products` endpoint
+// The endpoint of `/api/products`
 
 // get all products
 router.get('/', (req, res) => {
@@ -100,9 +100,9 @@ router.post('/', (req, res) => {
     });
 });
 
-// update product
+// product update
 router.put('/:id', (req, res) => {
-  // update product data
+  // product data update
   Product.update(req.body, {
     where: {
       id: req.params.id,
